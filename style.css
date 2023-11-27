@@ -1,0 +1,128 @@
+body {
+	background-color: #F7F7F9;
+	color: black;
+	font-family: Fira Code, sans-serif;
+  font-size: 18px;
+  letter-spacing: -1px;
+	font-weight: lighter;
+}
+
+h2 {
+	font-family: Karla;
+  font-size: 24px;
+	color: black ;
+	font-weight: 800;
+}
+
+.card-white {
+  margin: 10px auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card-white h1 {
+	font-family: Karla;
+  font-weight: 800;
+  color: #0A090C;
+  text-align: center;
+  letter-spacing: -3px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+.card-white a {
+	font-family: Karla;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: #BAED2E ;
+  color: black;
+  font-weight: bolder;
+  padding: 13px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.card-white a:hover {
+	color: white;
+  background-color: black;
+}
+
+.container  {
+	margin: 10px auto;
+	width: 700px;
+  text-align: center;
+}
+.card-grey {
+  color: black;
+	margin: 70px 0px;
+  padding: 20px;
+	text-align: center;
+  background-color: #F1F1F1;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+.card-green {
+  background-color: black;
+	margin: 70px 0px;
+  padding: 20px;
+	text-align: center;
+  color: #F1F1F1;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+.card-green h2 {
+  color: #BAED2E ;
+}
+
+.card-red {
+  padding: 20px;
+}
+.card-red a {
+  size: 50px;
+	color: #BAED2E;
+	border-radius: 4%;
+  padding: 5px;
+}
+.card-red a:hover {
+  size: 50px;
+	color: black;
+	border-radius: 4%;
+}
+
+.list-inline i {
+	padding: 5px;
+	font-size: 40px;
+}
+
+.list-inline {
+  list-style: none; /* le saca los bullet points a los emojis de rrss */
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline; /* hace que los emojis de rrss se van en la misma linea */
+  padding: 5px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.img-circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; /* Esto agrega bordes redondeados para simular una foto de perfil circular */
+    align-items: center;
+  }
